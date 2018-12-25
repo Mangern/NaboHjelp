@@ -12,7 +12,7 @@ class FactsScreenState extends State<FactsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Facts"),
+        title: Text("Nabofakta"),
       ),
       body: Container(
         color: Colors.teal,

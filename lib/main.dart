@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:nabo_hjelp/screens/conversations.dart';
 import 'package:nabo_hjelp/screens/facts.dart';
 import 'package:nabo_hjelp/screens/home.dart';
@@ -45,29 +46,28 @@ class MainPage extends StatefulWidget {
 class MainPageState extends State<MainPage> {
   int currentIndex = 0;
 
-  static Text navText(String text) => Text(text, style: TextStyle(color: Colors.black, fontSize: 12),);
+  static Text navText(String text) => Text(text, style: TextStyle(color: Colors.black, fontSize: 12,),);
 
-  // Use cont
   List<BottomNavigationBarItem> navigationItems = [
     BottomNavigationBarItem(
       icon: Icon(Icons.home),
-      title: navText("Home"),
+      title: Text("Hjem"),
     ),
     BottomNavigationBarItem(
         icon: Icon(Icons.poll),
-        title: navText("Facts")
+        title: Text("Nabofakta")
     ),
     BottomNavigationBarItem(
         icon: Icon(Icons.add),
-        title: navText("Message"),
+        title: Text("Melding"),
     ),
     BottomNavigationBarItem(
         icon: Icon(Icons.message),
-        title: navText("Conversations")
+        title: Text("Samtaler"),
     ),
     BottomNavigationBarItem(
         icon: Icon(Icons.account_circle),
-        title: navText("Profile")
+        title: Text("Profil")
     ),
   ];
 
@@ -92,6 +92,7 @@ class MainPageState extends State<MainPage> {
         },
         currentIndex: currentIndex,
         type: BottomNavigationBarType.fixed,
+        iconSize: 22.0,
       ),
     );
   }

@@ -13,7 +13,7 @@ class ConversationsScreenState extends State<ConversationsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Conversations"),
+        title: Text("Samtaler"),
       ),
     );
   }
