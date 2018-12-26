@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:nabo_hjelp/routes.dart';
 import 'package:nabo_hjelp/screens/conversations.dart';
 import 'package:nabo_hjelp/screens/facts.dart';
 import 'package:nabo_hjelp/screens/home.dart';
+import 'package:nabo_hjelp/screens/login.dart';
 import 'package:nabo_hjelp/screens/message.dart';
 import 'package:nabo_hjelp/screens/profile.dart';
 
@@ -27,23 +29,23 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
         accentColor: Colors.teal,
       ),
-      home: MainPage(),
+      routes: routes,
     );
   }
 }
 
-class MainPage extends StatefulWidget {
-  MainPage({Key key}) : super(key: key);
+class MainScreen extends StatefulWidget {
+  MainScreen({Key key}) : super(key: key);
 
   @override
   State<StatefulWidget> createState() {
-    return MainPageState();
+    return MainScreenState();
   }
 }
 
 
 // Will pretty much only handle navigation with bottom nav bar
-class MainPageState extends State<MainPage> {
+class MainScreenState extends State<MainScreen> {
   int currentIndex = 0;
 
   static Text navText(String text) => Text(text, style: TextStyle(color: Colors.black, fontSize: 12,),);

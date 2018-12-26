@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "112751342759",
+    "firebase_url": "https://nabohjelp-8e0bb.firebaseio.com",
+    "project_id": "nabohjelp-8e0bb",
+    "storage_bucket": "nabohjelp-8e0bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112751342759:android:859c6c8b4fcc4ec5",
+        "android_client_info": {
+          "package_name": "com.sumatowork.nabohjelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112751342759-lpunkm00sbhk8c9bcd4oqqgt846eg6dt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sumatowork.nabohjelp",
+            "certificate_hash": "a05b1f125e3a7382b4fcb7547353cc5f069d6765"
+          }
+        },
+        {
+          "client_id": "112751342759-s659sl3nneppk5re4akvkoivsrb4rlro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeWhUeKUz3MR22FL2ZEHDJ7ZoHutV8qwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112751342759-s659sl3nneppk5re4akvkoivsrb4rlro.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "112751342759-0bmrd3s4vtq4d5mhonl9q6aojs124i64.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sumatowork.nabohjelp"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

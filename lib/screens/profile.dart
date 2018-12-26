@@ -14,8 +14,12 @@ class ProfileScreenState extends State<ProfileScreen> {
       appBar: AppBar(
         title: Text("Profil"),
       ),
-      body: Container(
-        color: Colors.green,
+      body: RaisedButton(
+        onPressed: () {
+          // TODO: Logout code
+          Navigator.of(context).pushReplacementNamed("/login");
+        },
+        child: Text("Log out"),
       ),
     );
   }

@@ -27,13 +27,12 @@ class MessageScreen extends StatelessWidget {
             onTap: () {
               
             },
-
             child: GridTile(
               child: _navigationItems[i],
               footer: i < _navigationItems.length -1 ?
                 Padding(
                   padding: const EdgeInsets.only(left: 16.0, right: 16.0),
-                  child: Divider(),
+                  child: Divider(height: 1.0,),
                 ) :
                 SizedBox(height: 0.0,),
             ),
